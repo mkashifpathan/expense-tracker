@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    background-color: #6bc2b5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #76e1d1;
+    padding: 0px 20px;
+    border-radius: 1rem 0 1rem 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    color: #343a40;
+    font-family: 'Merriweather', serif;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    font-family: 'Merriweather', serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #343a40;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #9e400a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+}
+
+.btn:hover {
+    font-weight: 900;
+    color: #ced4da;
+    opacity: 0.9;
+}
+
+.expense-list {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:last-child {
+    border-bottom: none;
+    font-weight: bold;
+}
+
+.dropdown-container {
+    margin-top: -10px;
+    font-family: 'Merriweather', serif;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-family: 'Merriweather', serif;
+}
+
+.details-container {
+    margin-top: 0px;
+}
+
+.selected-item {
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+}
